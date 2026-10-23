@@ -54,12 +54,16 @@ For a local development server, open the folder in an editor such as Visual Stud
 
 ## Screenshots
 
-Add screenshots here after capturing the finished website at desktop and mobile widths.
+<img width="1599" height="831" alt="image" src="https://github.com/user-attachments/assets/bdb16e2f-57f5-4776-ba2e-833cc753096f" />
+
+<img width="1595" height="824" alt="image" src="https://github.com/user-attachments/assets/04d6fbaa-8819-40e1-8ca8-d481304e7b21" />
+
+<img width="1600" height="824" alt="image" src="https://github.com/user-attachments/assets/f94b4805-ff15-4421-b22b-c99923c2a7ce" />
+
+
+
 
 <!-- Example: ![LumiLayer home page on desktop](screenshots/home-desktop.png) -->
 
 ## Live demo
-
-Add the published website URL here after deployment.
-
-<!-- Example: https://your-demo-host.example/ -->
+https://synent-task7-multipagewebsite-ubaid.vercel.app/
