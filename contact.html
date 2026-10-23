@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact LumiLayer about a fictional web design, app development, or digital growth project.">
+  <title>Contact | LumiLayer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="LumiLayer home">
+        <span class="brand__mark" aria-hidden="true"><span></span></span>
+        <span>LumiLayer</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-navigation" aria-label="Open navigation menu">
+        <span class="menu-toggle__icon" aria-hidden="true">☰</span>
+      </button>
+      <nav class="site-nav" id="main-navigation" aria-label="Main navigation">
+        <ul class="site-nav__list">
+          <li><a class="site-nav__link" href="index.html">Home</a></li>
+          <li><a class="site-nav__link" href="about.html">About</a></li>
+          <li><a class="site-nav__link" href="services.html">Services</a></li>
+          <li><a class="site-nav__link" href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container page-hero__inner">
+        <p class="eyebrow">Contact</p>
+        <h1>Tell us what you’re imagining.</h1>
+        <p>Share a little about your idea, and our fictional team will be ready to help shape the next layer.</p>
+      </div>
+    </section>
+
+    <section class="section contact-section" aria-labelledby="contact-form-title">
+      <div class="container contact-layout">
+        <div class="contact-details">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Let’s start a conversation.</h2>
+          <p>These contact details are placeholders for the educational project.</p>
+
+          <address class="contact-list">
+            <div class="contact-item">
+              <span class="contact-item__icon" aria-hidden="true">⌖</span>
+              <div><h3>Visit</h3><p>123 Creative Avenue<br>Suite 404, Sample City</p></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__icon" aria-hidden="true">✉</span>
+              <div><h3>Email</h3><p><a href="mailto:hello@lumilayer.example">hello@lumilayer.example</a></p></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-item__icon" aria-hidden="true">☎</span>
+              <div><h3>Call</h3><p><a href="tel:+15550140204">+1 (555) 014-0204</a></p></div>
+            </div>
+          </address>
+
+          <div class="social-block">
+            <h3>Follow along</h3>
+            <ul class="social-links">
+              <li><a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+              <li><a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">Instagram<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+              <li><a href="https://www.behance.net/" target="_blank" rel="noopener noreferrer">Behance<span class="visually-hidden"> (opens in a new tab)</span></a></li>
+            </ul>
+          </div>
+        </div>
+
+        <form class="contact-form" id="contact-form" action="#" method="post" novalidate>
+          <h2 id="contact-form-title">Send a project note</h2>
+          <p class="contact-form__hint">All fields are required.</p>
+          <div class="form-field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" required>
+          </div>
+          <div class="form-field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+          <button class="button button--primary" type="submit">Send message</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span class="site-footer__brand">LumiLayer</span>
+      <p class="site-footer__disclaimer">Educational project. LumiLayer is a fictional company.</p>
+    </div>
+  </footer>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
